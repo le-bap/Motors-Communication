@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/robo/Motors-Communication/build/motors_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[2.093s] [100%] [32m[1mLinking CXX executable motors_communication[0m
+[2.183s] [100%] Built target motors_communication
+[2.192s] Invoked command in '/home/robo/Motors-Communication/build/motors_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8
+[2.215s] Invoking command in '/home/robo/Motors-Communication/build/motors_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robo/Motors-Communication/build/motors_pkg
+[2.222s] -- Install configuration: ""
+[2.222s] -- Installing: /home/robo/Motors-Communication/install/motors_pkg/lib/motors_pkg/motors_communication
+[2.222s] -- Set runtime path of "/home/robo/Motors-Communication/install/motors_pkg/lib/motors_pkg/motors_communication" to ""
+[2.222s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/ament_index/resource_index/package_run_dependencies/motors_pkg
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/ament_index/resource_index/parent_prefix_path/motors_pkg
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.sh
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.dsv
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/environment/path.sh
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/environment/path.dsv
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/local_setup.bash
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/local_setup.sh
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/local_setup.zsh
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/local_setup.dsv
+[2.223s] -- Installing: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/package.dsv
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/ament_index/resource_index/packages/motors_pkg
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig.cmake
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig-version.cmake
+[2.223s] -- Up-to-date: /home/robo/Motors-Communication/install/motors_pkg/share/motors_pkg/package.xml
+[2.224s] Invoked command in '/home/robo/Motors-Communication/build/motors_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robo/Motors-Communication/build/motors_pkg

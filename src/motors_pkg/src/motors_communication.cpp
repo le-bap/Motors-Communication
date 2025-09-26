@@ -1,6 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "dynamixel_sdk/dynamixel_sdk.h"
 
+// Definições para comunicação entre motor 
 #define DEVICENAME "/dev/ttyUSB2"
 #define BAUDRATE 1000000
 #define PROTOCOL_VERSION 2.0
@@ -8,35 +9,40 @@
 #define ADDR_GOAL_POSITION 116
 #define TORQUE_ENABLE 1
 
+// Cria a classe 
 class MotorsCommunication : public rclcpp::Node
 {
-public:
+public: // Cria o nó motors_communication
     MotorsCommunication() : Node("motors_communication")
     {
         // Inicializa comunicação
         portHandler = dynamixel::PortHandler::getPortHandler(DEVICENAME);
         packetHandler = dynamixel::PacketHandler::getPacketHandler(PROTOCOL_VERSION);
 
+        // Tenta abrir a porta
         if (!portHandler->openPort()) {
-            RCLCPP_ERROR(this->get_logger(), "Falha ao abrir a porta!");
+            RCLCPP_ERROR(this->get_logger(), "Falha ao abrir a porta");
             return;
         }
 
+        // Tenta configurar o baudrate
         if (!portHandler->setBaudRate(BAUDRATE)) {
-            RCLCPP_ERROR(this->get_logger(), "Falha ao configurar baudrate!");
+            RCLCPP_ERROR(this->get_logger(), "Falha ao configurar baudrate");
             return;
         }
 
+        // Recebe os valores do usuário
         int id, pos;
         std::cout << "Digite o ID do motor: ";
         std::cin >> id;
         std::cout << "Digite a posição desejada: ";
         std::cin >> pos;
 
+        // Chama a função setPosition com os valores recebidos
         if (setPosition(id, pos)) {
-            std::cout << "Comando enviado com sucesso!" << std::endl;
+            RCLCPP_INFO(this->get_logger(), "Comando enviado com sucesso!!");
         } else {
-            std::cout << "Erro ao enviar comando." << std::endl;
+            RCLCPP_ERROR(this->get_logger(), "Erro ao enviar o comando");
         }
 
         portHandler->closePort();
@@ -46,28 +52,23 @@ private:
     dynamixel::PortHandler* portHandler;
     dynamixel::PacketHandler* packetHandler;
 
+    // Função que fará a mudança na posição do motors
     bool setPosition(int id, int pos)
     {
         uint8_t error;
         int result;
 
-        // Ativar torque
+       // Ativa o torque do motor 
         result = packetHandler->write1ByteTxRx(portHandler, id, ADDR_TORQUE_ENABLE, TORQUE_ENABLE, &error);
-        if (result != COMM_SUCCESS) {
-            RCLCPP_ERROR(this->get_logger(), "Erro ativando torque: %s", packetHandler->getTxRxResult(result));
-            return false;
-        } else if (error != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Erro no pacote ao ativar torque: %s", packetHandler->getRxPacketError(error));
+        if (result != COMM_SUCCESS || error != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Erro ao ativar torque.");
             return false;
         }
 
-        // Enviar posição
+        // Envia a posição desejada para o motor
         result = packetHandler->write4ByteTxRx(portHandler, id, ADDR_GOAL_POSITION, pos, &error);
-        if (result != COMM_SUCCESS) {
-            RCLCPP_ERROR(this->get_logger(), "Erro de comunicação ao enviar posição: %s", packetHandler->getTxRxResult(result));
-            return false;
-        } else if (error != 0) {
-            RCLCPP_ERROR(this->get_logger(), "Erro no pacote ao enviar posição: %s", packetHandler->getRxPacketError(error));
+        if (result != COMM_SUCCESS || error != 0) {
+            RCLCPP_ERROR(this->get_logger(), "Erro ao enviar posição.");
             return false;
         }
 
