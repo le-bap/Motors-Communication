@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[100%] [32m[1mLinking CXX executable motors_communication[0m
+[100%] Built target motors_communication
+-- Install configuration: ""
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/lib/motors_pkg/motors_communication
+-- Set runtime path of "/home/fei/publish_motors_position/install/motors_pkg/lib/motors_pkg/motors_communication" to ""
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/package_run_dependencies/motors_pkg
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/parent_prefix_path/motors_pkg
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/path.sh
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/path.dsv
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.bash
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.sh
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.zsh
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.dsv
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/package.dsv
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/packages/motors_pkg
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig.cmake
+-- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig-version.cmake
+-- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/package.xml

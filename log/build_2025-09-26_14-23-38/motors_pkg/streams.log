@@ -1,0 +1,11 @@
+[0.023s] Invoking command in '/home/fei/publish_motors_position/build/motors_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[3.102s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:[m[K In member function ‘[01m[Kvoid MotorsCommunication::command_callback(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.102s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel_sdk[m[K’ has not been declared
+[3.102s]    33 |         bool ok = [01;31m[Kdynamixel_sdk[m[K::SetPosition(motor_id, target_position);
+[3.102s]       |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[6.060s] gmake[2]: *** [CMakeFiles/motors_communication.dir/build.make:76: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o] Error 1
+[6.060s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_communication.dir/all] Error 2
+[6.061s] gmake: *** [Makefile:146: all] Error 2
+[6.066s] Invoked command in '/home/fei/publish_motors_position/build/motors_pkg' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12

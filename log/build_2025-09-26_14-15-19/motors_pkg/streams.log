@@ -1,0 +1,74 @@
+[0.025s] Invoking command in '/home/fei/publish_motors_position/build/motors_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[0.149s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[3.005s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[3.005s]    16 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::Int32MultiArray::SharedPtr msg)
+[3.005s]       |                                 [01;31m[K^~~~~~~~[m[K
+[3.006s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[3.006s]    16 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KInt32MultiArray::SharedPtr msg)
+[3.006s]       |                                              [01;31m[K^~[m[K
+[3.006s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[3.006s]    16 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KInt32MultiArray::SharedPtr msg)
+[3.006s]       |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[3.007s]       |                                              [32m[K)[m[K
+[3.011s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.011s]    16 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::Int32MultiArray::SharedPtr msg)
+[3.011s]       |                                           [01;31m[K^~~[m[K
+[3.011s]       |                                              [32m[K;[m[K
+[3.016s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:48:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[3.017s]    16 |     void command_callback(const std_msgs::msg::[01;31m[KInt32MultiArray[m[K::SharedPtr msg)
+[3.017s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.026s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.026s]    37 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Int32MultiArray>::SharedPtr subscription_;
+[3.026s]       |                          [01;31m[K^~~~~~~~[m[K
+[3.026s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.027s]    37 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr subscription_;
+[3.027s]       |                                                        [01;31m[K^[m[K
+[3.027s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.027s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[3.027s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[3.027s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.028s]    37 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K subscription_;
+[3.028s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[3.028s]       |                                                                    [32m[K;[m[K
+[3.028s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:37:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.029s]    37 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Ksubscription_[m[K;
+[3.029s]       |                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+[3.029s]       |                                                                     [32m[Krmw_subscription_t[m[K
+[3.039s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:[m[K In constructor ‘[01m[KMotorPublisher::MotorPublisher()[m[K’:
+[3.039s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[3.040s]    10 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32MultiArray>(
+[3.040s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.040s]       |         [32m[Krmw_subscription_t[m[K
+[3.049s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[3.049s]    10 |         subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::Int32MultiArray>(
+[3.049s]       |                                                   [01;31m[K^~~~~~~~[m[K
+[3.049s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.049s]    10 |         subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::Int32MultiArray>[m[K(
+[3.049s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.056s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMotorPublisher::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (MotorPublisher::*)(...), MotorPublisher*, const std::_Placeholder<1>&>::type)[m[K’
+[3.057s]    10 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>([m[K
+[3.057s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.057s]    11 | [01;31m[K            "motor_command", 10,[m[K
+[3.057s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+[3.058s]    12 | [01;31m[K            std::bind(&MotorPublisher::command_callback, this, std::placeholders::_1))[m[K;
+[3.058s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.058s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.058s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.058s]                  from [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:1[m[K:
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[3.059s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[3.059s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.059s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.059s] [01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.059s]    10 |         subscription_ = [01;31m[Kthis->create_subscription<std_msgs::msg::Int32MultiArray>([m[K
+[3.060s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.060s]    11 | [01;31m[K            "motor_command", 10,[m[K
+[3.060s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+[3.060s]    12 | [01;31m[K            std::bind(&MotorPublisher::command_callback, this, std::placeholders::_1))[m[K;
+[3.060s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.627s] gmake[2]: *** [CMakeFiles/motors_communication.dir/build.make:76: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o] Error 1
+[3.627s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_communication.dir/all] Error 2
+[3.628s] gmake: *** [Makefile:146: all] Error 2
+[3.633s] Invoked command in '/home/fei/publish_motors_position/build/motors_pkg' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12

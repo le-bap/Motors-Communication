@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/home/fei/publish_motors_position/build/motors_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[0.135s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[3.673s] [100%] [32m[1mLinking CXX executable motors_communication[0m
+[3.853s] [100%] Built target motors_communication
+[3.873s] Invoked command in '/home/fei/publish_motors_position/build/motors_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12
+[3.891s] Invoking command in '/home/fei/publish_motors_position/build/motors_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fei/publish_motors_position/build/motors_pkg
+[3.903s] -- Install configuration: ""
+[3.903s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/lib/motors_pkg/motors_communication
+[3.904s] -- Set runtime path of "/home/fei/publish_motors_position/install/motors_pkg/lib/motors_pkg/motors_communication" to ""
+[3.904s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/package_run_dependencies/motors_pkg
+[3.904s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/parent_prefix_path/motors_pkg
+[3.905s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.sh
+[3.905s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/ament_prefix_path.dsv
+[3.905s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/path.sh
+[3.905s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/environment/path.dsv
+[3.905s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.bash
+[3.906s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.sh
+[3.906s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.zsh
+[3.906s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/local_setup.dsv
+[3.906s] -- Up-to-date: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/package.dsv
+[3.906s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/ament_index/resource_index/packages/motors_pkg
+[3.906s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig.cmake
+[3.907s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/cmake/motors_pkgConfig-version.cmake
+[3.907s] -- Installing: /home/fei/publish_motors_position/install/motors_pkg/share/motors_pkg/package.xml
+[3.909s] Invoked command in '/home/fei/publish_motors_position/build/motors_pkg' returned '0': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fei/publish_motors_position/build/motors_pkg

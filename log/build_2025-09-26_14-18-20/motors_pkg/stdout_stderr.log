@@ -1,0 +1,53 @@
+[35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+   16 |     void command_callback(const [01;31m[Kstd_msgs[m[K::msg::Int32MultiArray::SharedPtr msg)
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:46:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   16 |     void command_callback(const std_msgs::msg[01;31m[K::[m[KInt32MultiArray::SharedPtr msg)
+      |                                              [01;31m[K^~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   16 |     void command_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KInt32MultiArray::SharedPtr msg)
+      |                          [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   16 |     void command_callback(const std_msgs::[01;31m[Kmsg[m[K::Int32MultiArray::SharedPtr msg)
+      |                                           [01;31m[K^~~[m[K
+      |                                              [32m[K;[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:16:48:[m[K [01;31m[Kerror: [m[K‘[01m[KInt32MultiArray[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   16 |     void command_callback(const std_msgs::msg::[01;31m[KInt32MultiArray[m[K::SharedPtr msg)
+      |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   39 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::Int32MultiArray>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   39 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   39 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                           [01;31m[K^~~~~~~~~[m[K
+      |                                                                    [32m[K;[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:39:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   39 |     rclcpp::Subscription<std_msgs::msg::Int32MultiArray>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                     [32m[Krmw_subscription_t[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:[m[K In constructor ‘[01m[KMotorsCommunication::MotorsCommunication()[m[K’:
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   10 |         [01;31m[Ksubscription_[m[K = this->create_subscription<std_msgs::msg::Int32MultiArray>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   10 |         subscription_ = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::Int32MultiArray>(
+      |                                                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:10:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   10 |         subscription_ = this->[01;31m[Kcreate_subscription<std_msgs::msg::Int32MultiArray>[m[K(
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:12:24:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorPublisher[m[K’ has not been declared
+   12 |             std::bind(&[01;31m[KMotorPublisher[m[K::command_callback, this, std::placeholders::_1));
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/motors_communication.dir/build.make:76: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_communication.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
