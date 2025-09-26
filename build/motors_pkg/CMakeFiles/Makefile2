@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fei/publish_motors_position/src/motors_pkg
+CMAKE_SOURCE_DIR = /home/robo/Motors-Communication/src/motors_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fei/publish_motors_position/build/motors_pkg
+CMAKE_BINARY_DIR = /home/robo/Motors-Communication/build/motors_pkg
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,14 +83,14 @@ clean: CMakeFiles/motors_communication.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/motors_pkg_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fei/publish_motors_position/build/motors_pkg/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robo/Motors-Communication/build/motors_pkg/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -109,14 +109,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/motors_pkg_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motors_pkg_uninstall.dir/build.make CMakeFiles/motors_pkg_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motors_pkg_uninstall.dir/build.make CMakeFiles/motors_pkg_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fei/publish_motors_position/build/motors_pkg/CMakeFiles --progress-num= "Built target motors_pkg_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robo/Motors-Communication/build/motors_pkg/CMakeFiles --progress-num= "Built target motors_pkg_uninstall"
 .PHONY : CMakeFiles/motors_pkg_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/motors_pkg_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/motors_pkg_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/motors_pkg_uninstall.dir/rule
 
 # Convenience name for target.
@@ -135,14 +135,14 @@ CMakeFiles/motors_pkg_uninstall.dir/clean:
 CMakeFiles/motors_communication.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motors_communication.dir/build.make CMakeFiles/motors_communication.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motors_communication.dir/build.make CMakeFiles/motors_communication.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fei/publish_motors_position/build/motors_pkg/CMakeFiles --progress-num=1,2 "Built target motors_communication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robo/Motors-Communication/build/motors_pkg/CMakeFiles --progress-num=1,2 "Built target motors_communication"
 .PHONY : CMakeFiles/motors_communication.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/motors_communication.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/motors_communication.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles 0
 .PHONY : CMakeFiles/motors_communication.dir/rule
 
 # Convenience name for target.

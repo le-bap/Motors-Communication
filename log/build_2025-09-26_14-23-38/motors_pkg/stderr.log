@@ -1,7 +1,0 @@
-[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:[m[K In member function ‘[01m[Kvoid MotorsCommunication::command_callback(std_msgs::msg::Int32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp:33:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kdynamixel_sdk[m[K’ has not been declared
-   33 |         bool ok = [01;31m[Kdynamixel_sdk[m[K::SetPosition(motor_id, target_position);
-      |                   [01;31m[K^~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/motors_communication.dir/build.make:76: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_communication.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

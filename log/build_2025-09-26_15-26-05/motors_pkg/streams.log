@@ -1,0 +1,33 @@
+[0.008s] Invoking command in '/home/robo/Motors-Communication/build/motors_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target motors_communication[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o[0m
+[0.236s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:20:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorsCommunication[m[K’ does not name a type
+[0.236s]    20 | [01;31m[KMotorsCommunication[m[K::MotorsCommunication()
+[0.236s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.237s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.237s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:48:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.237s]    48 |     [01;31m[Krclcpp[m[K::init(argc, argv);
+[0.237s]       |     [01;31m[K^~~~~~[m[K
+[0.237s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:49:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_shared[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[0.237s]    49 |     auto motorscomm = std::[01;31m[Kmake_shared[m[K<MotorsCommunication>();
+[0.237s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[0.237s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:3:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::make_shared[m[K’ is defined in header ‘[01m[K<memory>[m[K’; did you forget to ‘[01m[K#include <memory>[m[K’?
+[0.237s]     2 | #include "dynamixel_sdk/dynamixel_sdk.h"
+[0.237s]   +++ |+[32m[K#include <memory>[m[K
+[0.237s]     3 | 
+[0.238s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:49:40:[m[K [01;31m[Kerror: [m[K‘[01m[KMotorsCommunication[m[K’ was not declared in this scope
+[0.238s]    49 |     auto motorscomm = std::make_shared<[01;31m[KMotorsCommunication[m[K>();
+[0.238s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.238s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:49:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.238s]    49 |     auto motorscomm = std::make_shared<MotorsCommunication>([01;31m[K)[m[K;
+[0.238s]       |                                                             [01;31m[K^[m[K
+[0.238s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.238s]    50 |     [01;31m[Krclcpp[m[K::spin(motorscomm);
+[0.238s]       |     [01;31m[K^~~~~~[m[K
+[0.238s] [01m[K/home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp:51:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[0.238s]    51 |     [01;31m[Krclcpp[m[K::shutdown();
+[0.238s]       |     [01;31m[K^~~~~~[m[K
+[0.267s] gmake[2]: *** [CMakeFiles/motors_communication.dir/build.make:76: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o] Error 1
+[0.267s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/motors_communication.dir/all] Error 2
+[0.268s] gmake: *** [Makefile:146: all] Error 2
+[0.269s] Invoked command in '/home/robo/Motors-Communication/build/motors_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8

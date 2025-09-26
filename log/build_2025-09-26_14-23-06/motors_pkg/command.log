@@ -1,2 +1,0 @@
-Invoking command in '/home/fei/publish_motors_position/build/motors_pkg': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12
-Invoked command in '/home/fei/publish_motors_position/build/motors_pkg' returned '2': BYOBU_DATE=%Y-%m-%d CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fei/publish_motors_position/build/motors_pkg -- -j12 -l12

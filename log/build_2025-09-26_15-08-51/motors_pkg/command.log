@@ -1,0 +1,4 @@
+Invoking command in '/home/robo/Motors-Communication/build/motors_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8
+Invoked command in '/home/robo/Motors-Communication/build/motors_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robo/Motors-Communication/build/motors_pkg -- -j8 -l8
+Invoking command in '/home/robo/Motors-Communication/build/motors_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/Motors-Communication/build/motors_pkg
+Invoked command in '/home/robo/Motors-Communication/build/motors_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robo/Motors-Communication/build/motors_pkg

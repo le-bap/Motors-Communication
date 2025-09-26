@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fei/publish_motors_position/src/motors_pkg
+CMAKE_SOURCE_DIR = /home/robo/Motors-Communication/src/motors_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fei/publish_motors_position/build/motors_pkg
+CMAKE_BINARY_DIR = /home/robo/Motors-Communication/build/motors_pkg
 
 # Include any dependencies generated for this target.
 include CMakeFiles/motors_communication.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/motors_communication.dir/progress.make
 include CMakeFiles/motors_communication.dir/flags.make
 
 CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o: CMakeFiles/motors_communication.dir/flags.make
-CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o: /home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp
+CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o: /home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp
 CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o: CMakeFiles/motors_communication.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fei/publish_motors_position/build/motors_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o -MF CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o.d -o CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o -c /home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robo/Motors-Communication/build/motors_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o -MF CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o.d -o CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o -c /home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp
 
 CMakeFiles/motors_communication.dir/src/motors_communication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/motors_communication.dir/src/motors_communication.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp > CMakeFiles/motors_communication.dir/src/motors_communication.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp > CMakeFiles/motors_communication.dir/src/motors_communication.cpp.i
 
 CMakeFiles/motors_communication.dir/src/motors_communication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/motors_communication.dir/src/motors_communication.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fei/publish_motors_position/src/motors_pkg/src/motors_communication.cpp -o CMakeFiles/motors_communication.dir/src/motors_communication.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robo/Motors-Communication/src/motors_pkg/src/motors_communication.cpp -o CMakeFiles/motors_communication.dir/src/motors_communication.cpp.s
 
 # Object files for target motors_communication
 motors_communication_OBJECTS = \
@@ -92,7 +92,6 @@ motors_communication_EXTERNAL_OBJECTS =
 
 motors_communication: CMakeFiles/motors_communication.dir/src/motors_communication.cpp.o
 motors_communication: CMakeFiles/motors_communication.dir/build.make
-motors_communication: /opt/ros/humble/lib/libdynamixel_sdk.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
@@ -100,6 +99,7 @@ motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_intros
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 motors_communication: /opt/ros/humble/lib/librclcpp.so
+motors_communication: /opt/ros/humble/lib/libdynamixel_sdk.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 motors_communication: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 motors_communication: /opt/ros/humble/lib/liblibstatistics_collector.so
@@ -156,7 +156,7 @@ motors_communication: /opt/ros/humble/lib/librcpputils.so
 motors_communication: /opt/ros/humble/lib/librcutils.so
 motors_communication: /opt/ros/humble/lib/libtracetools.so
 motors_communication: CMakeFiles/motors_communication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fei/publish_motors_position/build/motors_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable motors_communication"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robo/Motors-Communication/build/motors_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable motors_communication"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motors_communication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/motors_communication.dir/clean:
 .PHONY : CMakeFiles/motors_communication.dir/clean
 
 CMakeFiles/motors_communication.dir/depend:
-	cd /home/fei/publish_motors_position/build/motors_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fei/publish_motors_position/src/motors_pkg /home/fei/publish_motors_position/src/motors_pkg /home/fei/publish_motors_position/build/motors_pkg /home/fei/publish_motors_position/build/motors_pkg /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles/motors_communication.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robo/Motors-Communication/build/motors_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robo/Motors-Communication/src/motors_pkg /home/robo/Motors-Communication/src/motors_pkg /home/robo/Motors-Communication/build/motors_pkg /home/robo/Motors-Communication/build/motors_pkg /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles/motors_communication.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motors_communication.dir/depend
 

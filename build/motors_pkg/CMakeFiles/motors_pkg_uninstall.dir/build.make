@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fei/publish_motors_position/src/motors_pkg
+CMAKE_SOURCE_DIR = /home/robo/Motors-Communication/src/motors_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fei/publish_motors_position/build/motors_pkg
+CMAKE_BINARY_DIR = /home/robo/Motors-Communication/build/motors_pkg
 
 # Utility rule file for motors_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/motors_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/motors_pkg_uninstall.dir/progress.make
 
 CMakeFiles/motors_pkg_uninstall:
-	/usr/bin/cmake -P /home/fei/publish_motors_position/build/motors_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robo/Motors-Communication/build/motors_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 motors_pkg_uninstall: CMakeFiles/motors_pkg_uninstall
 motors_pkg_uninstall: CMakeFiles/motors_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/motors_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/motors_pkg_uninstall.dir/clean
 
 CMakeFiles/motors_pkg_uninstall.dir/depend:
-	cd /home/fei/publish_motors_position/build/motors_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fei/publish_motors_position/src/motors_pkg /home/fei/publish_motors_position/src/motors_pkg /home/fei/publish_motors_position/build/motors_pkg /home/fei/publish_motors_position/build/motors_pkg /home/fei/publish_motors_position/build/motors_pkg/CMakeFiles/motors_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robo/Motors-Communication/build/motors_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robo/Motors-Communication/src/motors_pkg /home/robo/Motors-Communication/src/motors_pkg /home/robo/Motors-Communication/build/motors_pkg /home/robo/Motors-Communication/build/motors_pkg /home/robo/Motors-Communication/build/motors_pkg/CMakeFiles/motors_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/motors_pkg_uninstall.dir/depend
 
